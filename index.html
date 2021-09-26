@@ -21,29 +21,59 @@
                  </ul>
             </div>
           </nav>
-     </div>
 
          <div class="information">
+             
              <img src=https://miro.medium.com/max/1844/1*D0CuHlC7oBFFc09NZndkJA.gif class="mobile">
-             <div id='circle'></div>
+             
+             <div id='circle'>
                <div class="feature one">
-                <h1>Message1</h1>
-                <p>Would you like to send this message?</p>
+                 <div>
+                 <h1>Message1</h1>
+                 <p>Would you like to send this message?</p>
+                </div>
                </div>
                <div class="feature two">
-                   <h2>Message2</h2>
-                   <p>Would you like to send this message?</p>
-               </div>
+                   <div>
+                     <h2>Message2</h2>
+                      <p>Would you like to send this message?</p>
+                    </div>
+                   </div>
                 <div class="feature three">
-                    <h2>Message3</h2>
-                    <p>Would you like to send this message?</p>
-                </div>
+                   <div>
+                     <h2>Message3</h2>
+                     <p>Would you like to send this message?</p>
+                    </div>
+                   </div>
                 <div class="feature four">
+                  <div>
                     <h3>Message4</h3>
                     <p>Would you like to send this message?</p>
-                </div>
-                 
+                  </div>
+               </div>
+             </div>
          </div>
+     </div>
+         <div class="controls">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8yeDYrlClRU0IWLCVqjA1uBFWC2jtdMnAyw&usqp=CAU"id='UpBtn'>
+            <h3>Send</h3>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8yeDYrlClRU0IWLCVqjA1uBFWC2jtdMnAyw&usqp=CAU' id='downBtn'>
+
+         </div>
+
+          <script>
+              var circle=document.getElementById("circle");
+              var upBtn=document.getElementById("upBtn");
+              var downBtn=document.getElementById("downBtn");
+              var rotateValue=circle.style.transform
+              var rotateSum;
+              
+              upBtn.onclick=function(){
+                  rotateSum=rotateValue + "rotate(-90deg)"; 
+                  circle.style.transform= rotateSum;
+                  rotateValue= rotateSum;
+              }
+          </script>
 
 
 </body>

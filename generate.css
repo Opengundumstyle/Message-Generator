@@ -23,7 +23,7 @@
         flex-basis: 20%;
     }
     .logo img{
-        width: 150px;
+        width: 50px;
     }
     .nav-links{
         flex: 1;
@@ -58,7 +58,8 @@
         top:0;
         left:-0;
         border-radius:50%;
-        background: #ccc;
+        transform:rotate(0deg);
+        background: mediumspringgreen;
 
     }
    /* .feature img{
@@ -71,7 +72,7 @@
     .feature div{
         margin-left:100px;
     }
-    .feature div{
+    .feature div p{
         margin-top:20px;
     }
     .one{
@@ -91,10 +92,10 @@
         right:350px;
     }
     .mobile{
-        width: 200px;
+        width: 100px;
         position: absolute;
-        top:50%;
-        left:35%;
+        top:35%;
+        left:25%;
         transform:translateY(-50%);
         z-index: 1;
     }
@@ -110,12 +111,12 @@
     }
 
     #upBtn{
-        width: 15px;
+        width: 40px;
         cursor: pointer;
     }
 
     #downBtn{
-        width: 15px;
+        width: 40px;
         cursor: pointer;
         transform: rotate(180deg);
     }
