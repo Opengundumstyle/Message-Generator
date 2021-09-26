@@ -61,3 +61,14 @@
         background: #ccc;
 
     }
+    .feature img{
+        width:70px;
+    }
+    .feature{
+        position:absolute;
+    }
+    .one{
+         top:450px;
+         right:50px;
+
+    }
