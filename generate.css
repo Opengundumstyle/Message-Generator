@@ -107,7 +107,7 @@
     }
     .controls{
         position:absolute;
-        right: 25%;
+        right: 15%;
         top: 40%;
         transform: translateY(-50%);
         text-align: center;
