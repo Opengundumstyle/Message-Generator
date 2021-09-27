@@ -23,7 +23,7 @@
           </nav>
 
          <div class="information">
-             
+             <div class="overlay"></div>
              <img src=https://miro.medium.com/max/1844/1*D0CuHlC7oBFFc09NZndkJA.gif class="mobile">
              
              <div id="circle">
@@ -71,6 +71,12 @@
               
               upBtn.onclick=function(){
                   rotateSum=rotateValue + "rotate(-90deg)"; 
+                  circle.style.transform= rotateSum;
+                  rotateValue= rotateSum;
+              }
+
+              downBtn.onclick=function(){
+                  rotateSum=rotateValue + "rotate(90deg)"; 
                   circle.style.transform= rotateSum;
                   rotateValue= rotateSum;
               }
